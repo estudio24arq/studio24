@@ -1,0 +1,87 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Decoración de Interiores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>DecorInterior</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section id="home">
+        <div class="intro">
+            <h2>Bienvenido a DecorInterior</h2>
+            <p>Transforma tu hogar con nuestros exclusivos artículos de decoración. Encuentra lo mejor en muebles, accesorios y decoración para todos los estilos.</p>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Sillón moderno">
+                <h3>Sillón Moderno</h3>
+                <p>$250</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Lámpara elegante">
+                <h3>Lámpara Elegante</h3>
+                <p>$120</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300" alt="Cuadro abstracto">
+                <h3>Cuadro Abstracto</h3>
+                <p>$95</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En DecorInterior nos apasiona crear ambientes únicos y acogedores para tu hogar. Trabajamos con materiales de alta calidad y ofrecemos diseños exclusivos para que tu espacio se vea espectacular.</p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o deseas saber más sobre nuestros productos, no dudes en ponerte en contacto con nosotros.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 DecorInterior. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
